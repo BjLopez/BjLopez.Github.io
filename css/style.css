@@ -17,7 +17,13 @@ main{
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  flex: 0 0 30%;
+  flex: 0 0 40%;
+}
+
+.logo{
+
+position: inherit;
+
 }
 
 .content{
@@ -41,44 +47,18 @@ header{
 }
 
 h1{
-  font-size: 60px;
+  font-size: 80px;
     color:#ff3341;
+    font-family: sans-serif;
 }
 
 .row-p{
   display: flex;
 }
 
-.resume{
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 12px;
-  background-color: #ff3341;
-  cursor: pointer;
-}
-
-.resume:hover{
-    background-color: RoyalBlue   ;
-}
-
-.resume2{
-  border: none;
-  padding: 12px 22px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 10px;
-  background-color: #ff3341;
-  cursor: pointer;
-  margin-left: 50px;
-}
-.resume2:hover{
-    background-color: RoyalBlue;
-}
-
 h2{
   padding: 0px 18px;
+  font-family: sans-serif;
   color:#ff3341;
 
 }
@@ -89,7 +69,14 @@ hr{
 }
 
 p{
+  font-family: sans-serif;
+  font-size: 18px;
     color:#ff3341;
+}
+
+.txt{
+  font-size:18px;
+  text-align: center;
 }
 
 .spacer{
@@ -192,7 +179,8 @@ p{
 }
 
 .links button a{
-  color:black;
+  color:#ff3341;
+  text-decoration: none;
 }
 
 .links button:hover {
