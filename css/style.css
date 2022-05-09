@@ -17,7 +17,7 @@ main{
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  flex: 0 0 40%;
+  flex: 0 0 35%;
 }
 
 .logo{
@@ -77,10 +77,6 @@ p{
 .txt{
   font-size:18px;
   text-align: center;
-}
-
-.spacer{
-  margin-top: 80px;
 }
 
 .column-p{
@@ -185,5 +181,42 @@ p{
 }
 
 .links button:hover {
-  background-color: #;
+  background-color: #f8eded;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+/
+input[type=submit] {
+  background-color: #ff3341;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #73171d;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f8eded;
+  padding: 20px;
+}
+
+@media query {
+
 }
