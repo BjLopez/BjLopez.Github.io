@@ -69,6 +69,7 @@ hr{
 }
 
 p{
+  text-align: center;
   font-family: sans-serif;
   font-size: 18px;
     color:#ff3341;
@@ -103,13 +104,13 @@ p{
   margin-left: 20px;
 }
 
-.trad, .pro, .ai, .ps, .idn{
+.trad, .pro, .ai, .ps, .idn, .blend{
   margin-top: 60px;
 }
 
 
-.tradskill, .proskill, .aiskill, .psskill, .idskill{
-  margin-left: 40px;
+.tradskill, .proskill, .aiskill, .psskill, .idskill, .blendskill{
+  margin-left: 30px;
   background-color:#cf2934;
   width: 80%;
   border-radius: 3px;
@@ -130,6 +131,7 @@ p{
   background-color:#ff3419;
   text-align: right;
   font-size: 20px;
+    font-family: sans-serif;
   border-radius: 13px;
   width: 85%;
   color:#f8eded;
@@ -140,6 +142,7 @@ p{
   background-color:#ff3419;
   text-align: right;
   font-size: 20px;
+  font-family: sans-serif;
   border-radius: 13px;
   width: 80%;
   color: #f8eded;
@@ -150,21 +153,34 @@ p{
   background-color:#ff3419;
   text-align: right;
   font-size: 20px;
+  font-family: sans-serif;
   border-radius: 13px;
   width: 70%;
   color:#f8eded;
-   box-shadow: 0px 0px 10px 5px #ff3419;
+  box-shadow: 0px 0px 10px 3px #ff3419;
+
 }
 
 .idbar{
   background-color:#ff3419;
   text-align: right;
   font-size: 20px;
+  font-family: sans-serif;
   border-radius: 13px;
   width: 50%;
   color:#f8eded;
    box-shadow: 0px 0px 10px 5px #ff3419;
 }
+
+.blendbar{
+  background-color:none;
+  text-align: right;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius: 13px;
+  width:60%;
+  color:#f8eded;
+   box-shadow: none;}
 
 .links button{
   margin-right: 10px;
@@ -173,17 +189,21 @@ p{
   font-size: 14px;
   background-color: #73171d;
   cursor: pointer;
+  border-style: none;
 }
 
 .links button a{
   color:#ff3341;
   font-size: 20px;
   text-decoration: none;
+
 }
 
 .links button:hover {
   background-color: #f8eded;
+  box-shadow: 0px 0px 10px 1px #f8eded;
 }
+
 
 
 input[type=text], select, textarea {
