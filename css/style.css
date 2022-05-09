@@ -174,15 +174,16 @@ p{
   padding: 12px 30px;
   text-align: center;
   font-size: 14px;
-  background-color: #ddd;
+  background-color: #73171d;
   cursor: pointer;
 }
 
 .links button a{
   color:#ff3341;
+  font-size: 20px;
   text-decoration: none;
 }
 
 .links button:hover {
-  background-color: RoyalBlue;
+  background-color: #;
 }
