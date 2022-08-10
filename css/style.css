@@ -17,13 +17,11 @@ main{
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  flex: 0 0 35%;
+  flex: 0 0 25%;
 }
 
 .logo{
-
 position: inherit;
-
 }
 
 .content{
