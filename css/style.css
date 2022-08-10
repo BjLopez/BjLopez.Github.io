@@ -188,12 +188,17 @@ p{
   color:#f8eded;
    box-shadow: none;}
 
+.links{
+  align-items: center;
+}
+
 .links button{
-  margin-right: 10px;
+  margin-left: 38%;
   padding: 12px 30px;
   text-align: center;
   font-size: 14px;
-  background-color: #73171d;
+  background-color: #000;
+  opacity: 80%;
   cursor: pointer;
   border-style: none;
 }
