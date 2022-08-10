@@ -212,38 +212,4 @@ p{
   box-shadow: 0px 0px 10px 1px #f8eded;
 }
 
-
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical
-}
-
-/
-input[type=submit] {
-  background-color: #ff3341;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-
-input[type=submit]:hover {
-  background-color: #73171d;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f8eded;
-  padding: 20px;
-}
-
-@media screen and (min-width: 1024px)
+@media screen and (min-width: 320px)
