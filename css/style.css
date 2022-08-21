@@ -101,83 +101,10 @@ p{
   color:#f8eded;
 }
 
-.skills{
-  margin-top: 50px;
-}
-
-.skills p{
-  letter-spacing: 4px;
-  margin-left: 20px;
-}
-
-.trad, .pro, .ai, .ps, .idn, .blend{
-  margin-top: 60px;
-}
-
-
-.tradskill, .proskill, .aiskill, .psskill, .idskill, .blendskill{
-  margin-left: 30px;
-  background-color:#cf2934;
-  width: 80%;
-  border-radius: 3px;
-}
-
-.tradbar{
-  background-color:#ff3419;
-  text-align: right;
-  font-size: 20px;
-  border-radius: 13px;
+.carousel-inner img{
   width: 100%;
-  color: #f8eded;
-   box-shadow: 0px 0px 10px 5px #ff3419;
-
+  height: 30%;
 }
-
-.probar{
-  background-color:#ff3419;
-  text-align: right;
-  font-size: 20px;
-    font-family: sans-serif;
-  border-radius: 13px;
-  width: 95%;
-  color:#f8eded;
-   box-shadow: 0px 0px 10px 5px #ff3419;
-}
-
-.aibar{
-  background-color:#ff3419;
-  text-align: right;
-  font-size: 20px;
-  font-family: sans-serif;
-  border-radius: 13px;
-  width: 70%;
-  color: #f8eded;
-   box-shadow: 0px 0px 10px 5px #ff3419;
-}
-
-.psbar{
-  background-color:#ff3419;
-  text-align: right;
-  font-size: 20px;
-  font-family: sans-serif;
-  border-radius: 13px;
-  width: 80%;
-  color:#f8eded;
-  box-shadow: 0px 0px 10px 3px #ff3419;
-
-}
-
-.afbar{
-  background-color:#ff3419;
-  text-align: right;
-  font-size: 20px;
-  font-family: sans-serif;
-  border-radius: 13px;
-  width: 50%;
-  color:#f8eded;
-   box-shadow: 0px 0px 10px 5px #ff3419;
-}
-
 
 
 .links{
