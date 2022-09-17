@@ -1,9 +1,8 @@
-*{
-  box-sizing: border-box;
-}
+
 
 body{
   margin: 0;
+  background-color: #2d2223;
 }
 
 
@@ -11,7 +10,7 @@ body{
 .content{
   overflow-y: auto;
   flex: 0 0 60%;
-  background-color: #ddd;
+  background-color: #2d2223;;
 }
 
 /* Intro Content */
@@ -22,24 +21,32 @@ header{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color:
+  background-color:#2d2223;
 }
 
 .logo{
   width: 50vh;
 }
-/* Heading */
+/* Text */
 h1{
+  font-family: sans-serif;
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
     color: #cf2934;
 }
 h2{
+  font-family: sans-serif;
   text-align: center;
-  font-size: 25px;
+  font-size: 40px;
   color: #cf2934;
 }
-
+p{
+  font-style: normal;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
 /* Styling for the horizontal rule */
 hr{
   width: 95%;
@@ -72,4 +79,48 @@ hr{
 /* About Section */
 .about{
   padding: 12px 32px;
+}
+
+
+/* Buttons */
+.button {
+  border-radius: 4px;
+  background-color: red;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button a {
+  color: white;
 }
